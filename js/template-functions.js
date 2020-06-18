@@ -107,8 +107,8 @@ $( document ).ready( function(){
 	// references and messages
 	var signupForm = '.signup-form';
 	var signupRequired = '.required-field';
-	var signupFormSending = 'Please wait.';
-	var signupFormSendingButton = 'Sending...';
+	var signupFormSending = 'Thank you for your email!';
+	var signupFormSendingButton = 'Sent!';
 	var signupFormSuccess = 'You have been added to our list!';
 	var signupFormError = 'Oh boy an error occurred, please try again.';
 	var signupFormSubscribed ='You are already subscribed to our list';
@@ -119,8 +119,8 @@ $( document ).ready( function(){
 	// references and messages
 	var contactForm = '.contact-form';
 	var contactRequired = '.required-field';
-	var contactFormSending = 'Please wait.';
-	var contactFormSendingButton = 'Sending...';
+	var contactFormSending = 'Thank you for your email!';
+	var contactFormSendingButton = 'Sent!';
 	var contactFormSuccess = 'Thank you, your email has been received!';
 	var contactFormError = 'Oh boy an error occurred, please try again.';
 	var contactFormFillFields = 'Please fill out required fields.';
@@ -1446,7 +1446,6 @@ $( document ).ready( function(){
 					var formAuxString = encodeURIComponent( '\n' ) + formAux[i].label + '%3A%20' + formAux[i].value;
 					formMessage += formAuxString;
 				}
-				formData.push( 'message=' + formMessage );
 				formData = formData.join( '&' );
 
 				// Validation flags
