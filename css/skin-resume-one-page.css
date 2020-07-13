@@ -132,6 +132,7 @@ h6{
 
 .grid-item-kroenke {
   left: unset !important;
+  /* min-height: 375px !important; */
 }
 
 /* Title Classes */
@@ -181,6 +182,62 @@ blockquote.large{
 .status-code-title{
 	font-size: 13.707rem;
 	line-height: 1;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-container {
+  margin: 3rem;
+}
+
+.sup {
+  z-index: 2;
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 500ms;
+  color: white;
+  text-align: center;
+}
+
+.thing {
+  /* margin: 3rem; */
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.link-parent {
+  cursor: pointer;
+  background-color: black;
+}
+
+.link-parent:hover {
+  transform: scale(0.9);
+}
+
+.link-parent:hover .thing {
+  opacity: 0.4;
+}
+
+.link-parent:hover .sup {
+  opacity: 1;
+}
+
+.yo {
+  max-width: 960px;
+  width: 100%;
 }
 
 /* Weight Classes */
@@ -3692,6 +3749,14 @@ blockquote.border{
 .logo-slider{
 	width: 10rem;
 	height: 10rem;
+}
+
+.citation {
+  font-size: 16px;
+}
+
+.intro {
+  font-size: 20px;
 }
 
 /* Breadcrumb */
