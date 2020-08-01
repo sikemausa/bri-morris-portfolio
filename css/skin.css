@@ -1467,7 +1467,7 @@ body,
 	height: 15rem;
 }
 .intro-title-2{
-	background-image: url(https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);	
+  background-color: #27ccc0 !important;
 }
 .intro-title-2-1{
 	background-image: url(../images/slider/slide-8-page-intro.jpg);	
@@ -3778,11 +3778,7 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Intro Sections */
 	.intro-title-2{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-position:center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-		/* background-image: url(https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);	 */
+    background-color: #27ccc0;
 	}
 	.intro-title-2-1{
 		background-image: url(../images/slider/slide-8-page-intro@2x.jpg);	
