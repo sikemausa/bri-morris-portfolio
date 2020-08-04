@@ -1506,6 +1506,26 @@ body,
   }
 }
 
+@media only screen and (min-width: 1140px){
+  .fanta-wide {
+    display: block !important;
+  }
+
+  .fanta-small {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1140px){
+  .fanta-wide {
+    display: none !important;
+  }
+
+  .fanta-small {
+    display: block !important;
+  }
+}
+
 @media only screen and (min-width: 960px){
   .broncos-small,
   .broncos-wide {
