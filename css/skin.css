@@ -1489,6 +1489,34 @@ body,
 	}
 }
 
+@media only screen and (max-width: 1140px){
+  .broncos-medium,
+  .broncos-wide {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1140px){
+  .broncos-wide {
+    display: block !important;
+  }
+
+  .broncos-medium {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 960px){
+  .broncos-small,
+  .broncos-wide {
+    display: none;
+  }
+
+  .broncos-medium {
+    display: block;
+  }
+}
+
 /*------------------------------------------------------------------
 [10. Slider & Parallax]
 */
