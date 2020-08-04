@@ -462,24 +462,24 @@ body,
 
 /* theme */
 .bkg-theme{
-	background-color: #27ccc0;
-	border-color: #27ccc0;
+	background-color: #0cbacf;
+	border-color: #0cbacf;
 }
 .bkg-hover-theme:hover{
-	background-color: #27ccc0;
-	border-color: #27ccc0;
+	background-color: #0cbacf;
+	border-color: #0cbacf;
 }
 .border-theme{
-	border-color: #27ccc0;
+	border-color: #0cbacf;
 }
 .border-hover-theme:hover{
-	border-color: #27ccc0;
+	border-color: #0cbacf;
 }
 .color-theme{
-	color: #27ccc0;
+	color: #0cbacf;
 }
 .color-hover-theme:hover{
-	color: #27ccc0;
+	color: #0cbacf;
 }
 
 /*------------------------------------------------------------------
@@ -1849,21 +1849,21 @@ body,
 @keyframes color {
 	100%,
 	0% {
-		stroke: #27ccc0;
-		border-bottom-color: #27ccc0;
+		stroke: #0cbacf;
+		border-bottom-color: #0cbacf;
 	}
 	40% {
-		stroke: #27ccc0;
-		border-bottom-color: #27ccc0;
+		stroke: #0cbacf;
+		border-bottom-color: #0cbacf;
 	}
 	66% {
-		stroke: #27ccc0;
-		border-bottom-color: #27ccc0;
+		stroke: #0cbacf;
+		border-bottom-color: #0cbacf;
 	}
 	80%,
 	90% {
-		stroke: #27ccc0;
-		border-bottom-color: #27ccc0;
+		stroke: #0cbacf;
+		border-bottom-color: #0cbacf;
 	}
 }
 
@@ -2073,7 +2073,7 @@ body,
 }
 .map-pan-link-container a.button.active{
 	background: none;
-	border-color: #27ccc0;
+	border-color: #0cbacf;
 	color: #fff;
 }
 
@@ -2567,18 +2567,18 @@ textarea.required-field{
 }
 .checkbox:checked + .checkbox-label:before {
 	content: '\e63a';
-	background: #27ccc0;
-	border-color: #27ccc0;
+	background: #0cbacf;
+	border-color: #0cbacf;
 	color: #fff;
 }
 .radio:checked + .radio-label:before {
-	background: #27ccc0;
+	background: #0cbacf;
 }
 .checkbox.required-field{
 	position: absolute;
 }
 .checkbox.required-field + .checkbox-label:before{
-	border-color: #27ccc0;
+	border-color: #0cbacf;
 }
 
 /* Contact Specific */
@@ -3449,7 +3449,7 @@ blockquote.border{
 .accordion.style-1 > ul > li.active > a:hover{
 	background-color: transparent;
 	border-color: #eee;
-	color: #27ccc0;
+	color: #0cbacf;
 }
 .accordion.style-1 > ul > li > div{
 	border: none;
@@ -3470,7 +3470,7 @@ blockquote.border{
 .accordion.style-2 > ul > li.active > a:hover{
 	background-color: transparent;
 	border-color: transparent;
-	color: #27ccc0;
+	color: #0cbacf;
 }
 .accordion.style-2 .accordion-content{
 	padding: 1rem 0 3rem 0;
@@ -3550,7 +3550,7 @@ blockquote.border{
 .tabs.style-1.vertical.right .tab-nav > li.active a:hover{
 	margin-right: 0;
 	border: none;
-	background-color: #27ccc0;
+	background-color: #0cbacf;
 	color: #fff;
 }
 /* style 2 */
@@ -3571,7 +3571,7 @@ blockquote.border{
 .tabs.style-2.vertical.right .tab-nav > li.active a{
 	background-color: transparent;
 	border-width: 0 0 1px 0;
-	border-color: #27ccc0;
+	border-color: #0cbacf;
 	color: #232323;
 }
 /* style 3 */
@@ -3646,12 +3646,12 @@ blockquote.border{
 	.tabs.style-2.vertical .tab-nav > li.active a,
 	.tabs.style-2.vertical .tab-nav > li.active a:hover{
 		border: none;
-		border-right: 1px solid #27ccc0;
+		border-right: 1px solid #0cbacf;
 	}
 	.tabs.style-2.vertical.right .tab-nav > li.active a,
 	.tabs.style-2.vertical.right .tab-nav > li.active a:hover{
 		border: none;
-		border-left: 1px solid #27ccc0;
+		border-left: 1px solid #0cbacf;
 	}
 }
 
